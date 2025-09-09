@@ -13,8 +13,11 @@ This repository contains a simulation of Gravity showcasing how physics works.
 - Completely modular and reproducible code that can be used to teach and learn. 
 
 ##  Compiling
-
 The code above needs to be compiled using the GCC Complier
+For the tldr users just run make in the root project folder, but you need to install the gcc compiler.
+
+     make
+But For those who want to compile and feel the satisfaction of doing it, follow these instructions.
 You can get it for windows [msys2](www.msys2.org), or [winlibs](https://winlibs.com/) if you're after a more bare bones version. 
 Grab the installer, x86_64 or arm, based on your system and install it to C:/msys64/
 Search for MSYS and run 
