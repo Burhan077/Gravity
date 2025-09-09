@@ -2,7 +2,7 @@
 Idiots claim that if Newton hadn't invented gravity, we would be flying, but, alas, humanity wouldn't have survived to conquer the planet and beyond if we were to listen to the mindless folk.
 Anyways, this repository contains a simulation of Gravity showcasing how physics works.
 
-##  Technologies Used
+##  Technologies Used 
 
 - C++
 - OpenGL
