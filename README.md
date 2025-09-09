@@ -87,6 +87,6 @@ To compile, run
 
 ## Additional Notes
 
-This repository is intended to increase knowledge, it was also an experiment I was doing to see whether we can measure the one-way speed of light without breaking physics. That video was by [Veritasium](https://youtu.be/pTn6Ewhb27k?si=1qDU7xZn21-IXhDc)
+This repository is intended to increase knowledge, it was also an experiment I was doing to see whether we can measure the one-way speed of light without breaking physics. That video was by [Veritasium](https://youtu.be/pTn6Ewhb27k?si=1qDU7xZn21-IXhDc).
 
 
