@@ -1,0 +1,47 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled static libraries
+*.lib
+*.a
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug / release folders
+Debug/
+Release/
+build/
+bin/
+lib/
+
+# CMake / Make build stuff
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.ninja
+*.log
+
+# VS Code settings (if you don’t want to share them)
+.vscode/
+
+# Other IDEs
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
