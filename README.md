@@ -18,7 +18,7 @@ For the tldr users just run make in the root project folder, but you need to ins
 
      make
 But For those who want to compile and feel the satisfaction of doing it, follow these instructions.
-You can get it for windows [msys2](www.msys2.org), or [winlibs](https://winlibs.com/) if you're after a more bare bones version. 
+You can get the big boy version for windows at [msys2](www.msys2.org) or, if you want a more bare-bones and minimalistic version without all the MSYS2 stuff, you can get it at [winlibs](https://winlibs.com/). 
 Grab the installer, x86_64 or arm, based on your system and install it to C:/msys64/
 Search for MSYS and run 
 
