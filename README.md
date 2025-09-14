@@ -18,31 +18,27 @@ For the tldr users just run make in the root project folder, but you need to ins
 
      make
 But For those who want to compile and feel the satisfaction of doing it, follow these instructions.
-You can get the big boy version for windows at [msys2](www.msys2.org) or, if you want a more bare-bones and minimalistic version without all the MSYS2 stuff, you can get it at [winlibs](https://winlibs.com/) or [sourceforge](https://sourceforge.net/projects/gcc-win64/). 
+You can get the big boy version for windows at [msys2](www.msys2.org).
 Grab the installer, x86_64 or arm, based on your system and install it to C:/msys64/
-Search for MSYS and run 
+Search for MSYS2 UCRT64 and run 
 
      pacman -Syu
 
 This updates the system and then install g++ using
 
-     pacman -S mingw-w64-x86_64-gcc
+     pacman -Syu   
+     pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-glfw mingw-w64-ucrt-x86_64-glew mingw-w64-ucrt-x86_64-glm make
 
-If you need the GNU Debugger install
-
-     pacman -S mingw-w64-x86_64-gdb
+This installs all the dependencies.
 
 To confirm, run 
 
      g++ --version
 
-Also, for easier workflow with MSYS2, add C:\msys64\mingw64\bin to PATH.
-If you're not after the whole MSYS2 stuff, install gcc from [here](https://winlibs.com)
-To compile, run
+Also, for easier workflow with MSYS2, add C:\msys64\ucrt64\bin to PATH.
+To Compile, run this in your project folder
 
-    g++ -std=c++20 3DTest.cpp gravity_sim.cpp gravity_sim_3Dgrid.cpp -o GravitySim.exe \
-    -I./include \
-    -L./lib -lglfw3 -lopengl32
+     g++ gravity_sim.cpp -o gravity_sim.exe -lglfw3 -lglew32 -lopengl32 -lgdi32
 
 To install on MacOS, use Homebrew or you can get another C++ compiler by running 
 
